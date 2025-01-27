@@ -221,8 +221,7 @@ margin-right: auto;
 .spec-line {
     display: flex;
     gap: 24px;
-    /* margin-left: auto;
-    margin-right: auto; */
+  
 }
 
 .specifik {
@@ -243,6 +242,19 @@ gap: 8px; */
 flex-basis: calc((100% - 3 * 24px)/ 4)
 }
 
+.spec-icons {
+    display: flex;
+    flex-direction: row;
+gap: 24px;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+background: #f4f4fd;
+width: 264px;
+height: 112px;
+justify-content: center;
+align-items: center;
+margin-bottom: 8px;
+}
 
 .featur {
 font-weight: 500;
