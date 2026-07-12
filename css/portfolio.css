@@ -57,3 +57,31 @@
 .resume-profession {
   color: #434455;
 }
+
+.cocial {
+display: flex;
+width: 100%;
+gap: 24px;
+}
+.cocial-list {
+
+}
+.cocial-link {
+display: flex;
+width: 40px;
+height: 40px;
+padding: 12px;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+background-color: #4D5AE5;
+}
+
+.cocial-link:hover, .cocial-link:focus {
+  background-color: #404bbf;
+}
+
+.cocial-icon {
+flex-shrink: 0;
+fill: #F4F4FD;
+}
