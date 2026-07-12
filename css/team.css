@@ -46,7 +46,7 @@
   flex-shrink: 0;
 }
 
-.resume-name {
+.team-resume-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -54,7 +54,7 @@
   text-align: center;
 }
 
-.resume-profession {
+.team-resume-profession {
   color: #434455;
   text-align: center;
 }
@@ -62,4 +62,33 @@
 .team-img {
   width: 264px;
   height: 260px;
+}
+
+.cocial {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+.cocial-list {
+}
+.cocial-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cocial-link:hover,
+.cocial-link:focus {
+  background-color: #404bbf;
+}
+
+.cocial-icon {
+  flex-shrink: 0;
+  fill: #f4f4fd;
 }
